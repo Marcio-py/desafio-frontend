@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <section class="background">
+        <div class="container">
+            <div class="app-header">
+                <h1>Previsao de tempo</h1>
+                <div class="details-block">
+                    <a class="details-block-header">
+                        <p>cidade - pais</p>
+                        <p class="detailed-weather">20ºC Nublado</p>
+                         <a class="details-block-close">x</a> <!-- Este item vai alterar entre x e + para esconder ou mostrat -->
+                    </a>
+
+                    <table class="details-table">
+                        <tr>
+                            <td>minº e max</td>
+                            <td> <span>sensaçao: </span>19ºC<td>
+                        </tr>
+                        <tr>
+                            <td> <span>vento:</span> 18km/h</td>
+                            <td><span>humidade:</span>30%</td>
+                        </tr>
+                    </table>
+                    <ul>
+                        <li> 
+                             <ul class="week-section">
+                                 <li><a class="week-day">Seg</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Ter</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Quar</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Qui</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Sex</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Sab</a><br><a class="temperature">18º 26º</a></li>
+                                 <li><a class="week-day">Dom</a><br><a class="temperature">18º 26º</a></li>
+                             </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <input type="text" class="city-search" value="Insira a cidade">
+            </div>
+            <div class="app-body">
+                <h2>Capitais</h2>
+                <table>
+                    <tr>
+                        <th scope="col">min</th>
+                        <th scope="col">max</th>
+                    </tr>
+                    <tr>
+                        <td>18º</td>
+                        <td>27º</td>
+                        <td>City name</td>
+                    </tr>
+                    <tr>
+                        <td>14º</td>
+                        <td>22º</td>
+                        <td>City name</td>
+                    </tr>
+                    <tr>
+                        <td>21º</td>
+                        <td>31º</td>
+                        <td>City name</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
